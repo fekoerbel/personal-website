@@ -7,13 +7,13 @@ export default class Main extends React.Component {
             <article>
                 <header>
                     <h1>
-                        Resume - muda de acordo com o arquivo
+                        { this.props.title }
                     </h1>
-                    <div className="links"> <h5>experience</h5> <h5>skills</h5> <h5>muda de acordo com o arquivo</h5></div>
+                    <div>{this.props.subtitle}</div>
                 </header>
-                <div>conteúdo</div>
-
-
+                <div>
+                    { this.props.children }
+                </div>
             </article>
         )
     }

@@ -1,0 +1,8 @@
+nav.menu ul {
+    display: flex;
+}
+
+nav.menu ul li {
+    margin: 0 1rem;
+    display: block;
+}

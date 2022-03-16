@@ -1,0 +1,36 @@
+aside.sidebar {
+    padding: 3rem;
+}
+
+.sidebar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.sidebar h1 {
+    text-align: start;
+}
+
+.sidebar .sidebar-info {
+    margin-bottom: 2rem;
+}
+
+.sidebar .sidebar-about {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar .sidebar-social {
+    margin-top: 2rem;
+}
+
+.sidebar .social-links {
+    display: flex;
+    padding: 0;  
+}
+
+.sidebar .social-links li {
+    display: block;
+    padding: 0 0.5rem;
+}

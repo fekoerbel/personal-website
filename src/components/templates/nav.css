@@ -6,3 +6,7 @@ nav.menu ul li {
     margin: 0 1rem;
     display: block;
 }
+
+nav.menu {
+    align-self: center;
+}

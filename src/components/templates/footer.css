@@ -1,0 +1,10 @@
+footer.footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+footer .copyright {
+    text-align: end;
+    flex-grow: 1;
+    padding: 1rem 3rem;
+}

@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .app {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,7 +24,7 @@
   grid-column-end: 2;
 }
 
-.app .content {
+.app .main {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
@@ -30,5 +35,5 @@
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 4;
 }

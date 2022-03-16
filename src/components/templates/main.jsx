@@ -4,7 +4,7 @@ import React from "react"
 export default class Main extends React.Component {
     render() {
         return (
-            <article>
+            <article className="main">
                 <header>
                     <h1>
                         { this.props.title }

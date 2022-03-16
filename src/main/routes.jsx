@@ -1,10 +1,10 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom"
-import Home from "../components/home/home";
-import About from "../components/about/about"
-import Resume from "../components/resume/resume"
-import Portfolio from "../components/portfolio/portfolio"
-import Contact from "../components/contact/contact"
+import Home from "../screens/home";
+import About from "../screens/about"
+import Resume from "../screens/resume"
+import Portfolio from "../screens/portfolio"
+import Contact from "../screens/contact"
 
 
 export default class Router extends React.Component {
@@ -15,8 +15,6 @@ export default class Router extends React.Component {
                 <Route path="/about" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/portfolio" element={<Portfolio />} />
-
-
                 <Route path="/contact" element={<Contact />} />
             </Routes>
         )

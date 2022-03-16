@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "../templates/main"
+import Main from "../components/templates/main";
 
 export default class Home extends React.Component {
     render() {

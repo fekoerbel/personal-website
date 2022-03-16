@@ -1,7 +1,7 @@
 import "./sidebar.css"
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { solid, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 export default class Sidebar extends React.Component {
     render() {

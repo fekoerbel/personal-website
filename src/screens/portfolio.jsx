@@ -7,7 +7,9 @@ import data from "../data/portfolio"
 export default class Portfolio extends React.Component {
     render() {
         return (
-            <Main title="Portfolio" subtitle="My Portfolio">
+            <Main 
+            title="Portfolio" 
+            subtitle="PROJECTS AND CHALLENGES COMPLETED BY ME">
                 <div>
                     {data.map((job) => {
                         return (<Job data={job} key={job.title} />)

@@ -28,3 +28,11 @@ article header.header-main h2 {
     color: gray;
     font-weight: 300    ;
 }
+
+h2.resume-title-topic {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 2rem 0 2rem 0;
+}

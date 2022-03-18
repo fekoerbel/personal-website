@@ -1,4 +1,4 @@
-const positions = [
+const experiences = [
     {
       company: 'Arthena',
       position: 'Co-founder, C.T.O.',
@@ -107,4 +107,4 @@ const positions = [
     },
   ];
   
-  export default positions;
+  export default experiences;

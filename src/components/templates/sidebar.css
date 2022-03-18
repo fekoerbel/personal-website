@@ -10,10 +10,22 @@ aside.sidebar {
 
 .sidebar h1 {
     text-align: start;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 
 .sidebar .sidebar-info {
     margin-bottom: 2rem;
+}
+
+.sidebar .sidebar-info a {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.sidebar .sidebar-info a:hover {
+    color: #0c4a89;
 }
 
 .sidebar .sidebar-about {
@@ -33,4 +45,15 @@ aside.sidebar {
 .sidebar .social-links li {
     display: block;
     padding: 0 0.5rem;
+}
+
+.sidebar .sidebar-about h2, .sidebar .sidebar-social h2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.sidebar .sidebar-about p {
+    font-size: 14px;
+    line-height: 25px;
+    color: gray;
 }

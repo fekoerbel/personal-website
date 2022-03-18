@@ -7,19 +7,19 @@ export default class Nav extends React.Component {
         return (
             <nav className="menu">
                 <ul>
-                    <li>
+                    <li className="first menu-hover">
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className="menu-hover">
                         <Link to="/about">About</Link>
                     </li>
-                    <li>
+                    <li className="menu-hover">
                         <Link to="/resume">Resume</Link>
                     </li>
-                    <li>
+                    <li className="menu-hover">
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
-                    <li>
+                    <li className="menu-hover">
                         <Link to="/contact">Contact</Link>
                     </li>
                 </ul>

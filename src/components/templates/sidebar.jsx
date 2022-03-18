@@ -10,7 +10,7 @@ export default class Sidebar extends React.Component {
                 <img src="https://via.placeholder.com/150x150" alt="Felipe Koerbel dos Anjos" />
                 <div className="sidebar-info">
                     <h1>
-                        FELIPE KOERBEL DOS ANJOS
+                        FELIPE KOERBEL
                     </h1>
                     <a href="mailto:fekoerbel@hotmail.com">FEKOERBEL@HOTMAIL.COM</a>
                 </div>

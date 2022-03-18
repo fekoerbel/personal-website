@@ -2,7 +2,7 @@ const data = [
     {
       title: 'Nearest Dollar',
       subtitle: '2015 BVP Hackathon',
-      image: 'https://via.placeholder.com/753x481',
+      image: 'https://placedog.net/753/481',
       date: '2015-11-20', 
       desc:
         'Built for a social impact hackathon. NearestDollar connected to your bank accounts, credit cards, or debit cards and rounded up your purchases to donate the balance to the charity of your choice.',
@@ -11,7 +11,7 @@ const data = [
       title: 'Harvest',
       subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
       link: 'https://devpost.com/software/harvest',
-      image: 'https://via.placeholder.com/753x481',
+      image: 'https://placedog.net/753/481',
       date: '2015-09-20',
       desc:
         'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
@@ -21,8 +21,8 @@ const data = [
     {
       title: 'Space Potato',
       subtitle: 'A kickstarter funded potato powered weather balloon.',
-      link: 'https://via.placeholder.com/753x481',
-      image: '/images/projects/spacepotato.jpg',
+      link: 'https://placedog.net/753/481',
+      image: 'https://placedog.net/753/481',
       date: '2015-06-28',
       desc:
         'Launched a potato battery powered weather balloon with two cameras '
@@ -32,7 +32,7 @@ const data = [
     {
       title: 'Cat Detector',
       subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-      image: 'https://via.placeholder.com/753x481',
+      image: 'https://placedog.net/753/481',
       date: '2015-05-15',
       desc:
         'Trained a convolutional neural network to classify between ~ 80 cats breeds. '

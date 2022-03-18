@@ -1,12 +1,59 @@
+nav.menu {
+    align-self: center;
+}
+
 nav.menu ul {
     display: flex;
 }
 
 nav.menu ul li {
-    margin: 0 1rem;
     display: block;
+    padding-bottom: 3px;  
 }
 
-nav.menu {
-    align-self: center;
+nav.menu ul li:not(.first) {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.275);
 }
+
+nav.menu ul li.first {
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+nav.menu ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+nav.menu ul li a:hover {
+    color: #000000;
+}
+
+.menu .menu-hover {
+    position: relative;
+}
+
+nav.menu ul li a::after {
+    transition: all ease-in-out .1s;
+    content: "";
+    position: absolute;
+    left: 0.4rem;
+    bottom: -1.45rem;
+    margin-top: 100px;
+    background: none repeat scroll 0 0 #8dc5ff;
+    height: 3px;
+    width: 0;
+}
+
+nav.menu ul li a:hover::after {
+    width: 100%;
+}
+
+
+

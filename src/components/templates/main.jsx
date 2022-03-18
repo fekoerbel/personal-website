@@ -5,13 +5,14 @@ export default class Main extends React.Component {
     render() {
         return (
             <article className="main">
-                <header>
+                <header className="header-main">
                     <h1>
                         { this.props.title }
                     </h1>
-                    <div>{this.props.subtitle}</div>
+                    <h2>{this.props.subtitle}</h2>
                 </header>
-                <div>
+                <hr />
+                <div className="content">
                     { this.props.children }
                 </div>
             </article>

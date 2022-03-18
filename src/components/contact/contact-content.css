@@ -1,0 +1,8 @@
+div.contacts li {
+    display: block;
+    padding: 0.4rem 0;
+}
+
+div.contacts li a {
+    text-decoration: none;
+}

@@ -7,14 +7,16 @@ export default class Job extends React.Component {
         
         return (
             <div className="job">
-                <h1>
-                    {this.props.data.title}
-                </h1>
-                <h2>
-                    {this.props.data.subtitle}
-                </h2>
+                <header>
+                    <h1>
+                        {this.props.data.title}
+                    </h1>
+                    <h2>
+                        {this.props.data.subtitle}
+                    </h2>
+                </header>
                 <figure>
-                    <img src={this.props.data.image} alt={this.props.data.title} />
+                    <a href="#"><img src={this.props.data.image} alt={this.props.data.title} /></a>
                     <figcaption>
                         <p>
                             {this.props.data.desc}

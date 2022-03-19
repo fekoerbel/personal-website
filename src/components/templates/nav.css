@@ -44,9 +44,9 @@ nav.menu ul li a::after {
     content: "";
     position: absolute;
     left: 0.4rem;
-    bottom: -1.45rem;
+    bottom: -1.15rem;
     margin-top: 100px;
-    background: none repeat scroll 0 0 #8dc5ff;
+    background: none repeat scroll 0 0 #7d8fa9;
     height: 3px;
     width: 0;
 }

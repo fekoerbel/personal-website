@@ -1,6 +1,6 @@
 import "./nav.css"
 import React from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default class Nav extends React.Component {
     render() {
@@ -8,19 +8,19 @@ export default class Nav extends React.Component {
             <nav className="menu">
                 <ul>
                     <li className="first menu-hover">
-                        <Link to="/">Home</Link>
+                        <NavLink to="/" activeClassName="active">Home</NavLink>
                     </li>
                     <li className="menu-hover">
-                        <Link to="/about">About</Link>
+                        <NavLink to="/about">About</NavLink>
                     </li>
                     <li className="menu-hover">
-                        <Link to="/resume">Resume</Link>
+                        <NavLink to="/resume">Resume</NavLink>
                     </li>
                     <li className="menu-hover">
-                        <Link to="/portfolio">Portfolio</Link>
+                        <NavLink to="/portfolio">Portfolio</NavLink>
                     </li>
                     <li className="menu-hover">
-                        <Link to="/contact">Contact</Link>
+                        <NavLink to="/contact">Contact</NavLink>
                     </li>
                 </ul>
             </nav>

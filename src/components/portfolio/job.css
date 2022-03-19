@@ -30,10 +30,6 @@
     transition: transform .2s;
 }
 
-.job figure a {
-    
-}
-
 .job figure img:hover {
     transform: scale(1.08);
 }

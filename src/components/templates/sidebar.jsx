@@ -2,12 +2,13 @@ import "./sidebar.css"
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import logo from '../../assets/sidebar-photo3.png'
 
 export default class Sidebar extends React.Component {
     render() {
         return (
             <aside className="sidebar">
-                <img src="https://via.placeholder.com/150x150" alt="Felipe Koerbel dos Anjos" />
+                <img src={logo} alt="Felipe Koerbel dos Anjos" />
                 <div className="sidebar-info">
                     <h1>
                         FELIPE KOERBEL

@@ -6,7 +6,7 @@ export default class Degrees extends React.Component {
     render() {
         return (
                 <li className="degree-item">
-                    <div>
+                    <div className="degree-title">
                         {this.props.degrees.degree}
                     </div>
                     <div className="degree-school">

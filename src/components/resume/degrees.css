@@ -2,6 +2,11 @@
     margin-bottom: 1rem;
 }
 
+.degree-title {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
 .degree-item a {
     text-decoration: none;
     border-bottom: gray dotted 1px;
@@ -14,4 +19,6 @@
 
 .degree-item a, span {
     color: gray;
+    font-size: 12px;
+    letter-spacing: 3px;
 }

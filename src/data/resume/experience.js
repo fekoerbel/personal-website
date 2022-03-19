@@ -1,7 +1,7 @@
 const experiences = [
     {
       company: 'Clickright Soluções em Tecnologia',
-      position: 'Front-end Developer - Intern',
+      position: 'Front-end Developer(Intern)',
       link: 'https://www.clickright.com.br/',
       daterange: 'October 2021 - Present',
       points: [

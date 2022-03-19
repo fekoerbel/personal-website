@@ -1,0 +1,22 @@
+.exp-item {
+    display: block;
+}
+
+.exp-title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.exp-date {
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.points-list {
+    list-style: square;
+}

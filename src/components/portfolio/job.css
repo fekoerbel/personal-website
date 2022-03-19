@@ -13,6 +13,7 @@
 .job figure figcaption {
     position: absolute;
     bottom: 0;
+    width: 100%;
     color: white;
     backdrop-filter: blur(1rem);
 }

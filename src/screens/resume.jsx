@@ -6,7 +6,6 @@ import experiences from "../data/resume/experience";
 import Exp from "../components/resume/exp";
 import { skills } from "../data/resume/skills";
 import Skills from "../components/resume/skills";
-import resumeFilme from "../assets/FELIPE KOERBEL DOS ANJOS.pdf"
 
 export default class Resume extends React.Component {
     render() {

@@ -9,17 +9,17 @@ export default class ContactContent extends React.Component {
             <div className="contacts">
                 <ul>
                     <li>
-                        <a href="mailto:fekoerbel@hotmail.com">
+                        <a href="mailto:fekoerbel@hotmail.com" className="link-style">
                             <FontAwesomeIcon icon={solid('envelope')} /> fekoerbel@hotmail.com
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/fekoerbel/">
+                        <a href="https://www.linkedin.com/in/fekoerbel/" className="link-style">
                             <FontAwesomeIcon icon={brands('linkedin')} /> linkedin.com/in/fekoerbel/
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/fekoerbel">
+                        <a href="https://github.com/fekoerbel" className="link-style">
                             <FontAwesomeIcon icon={brands('github')} /> github.com/fekoerbel
                         </a>
                     </li>

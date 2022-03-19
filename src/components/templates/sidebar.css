@@ -18,16 +18,6 @@ aside.sidebar {
     margin-bottom: 2rem;
 }
 
-.sidebar .sidebar-info a {
-    color: #686565;
-    font-size: 14px;
-    letter-spacing: 3px;
-}
-
-.sidebar .sidebar-info a:hover {
-    color: #0c4a89;
-}
-
 .sidebar .sidebar-about {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -55,5 +45,5 @@ aside.sidebar {
 .sidebar .sidebar-about p {
     font-size: 14px;
     line-height: 25px;
-    color: #686565;
+    color: #ffffff;
 }

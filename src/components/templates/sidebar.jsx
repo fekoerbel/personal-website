@@ -13,7 +13,6 @@ export default class Sidebar extends React.Component {
                     <h1>
                         FELIPE KOERBEL
                     </h1>
-                    <a href="mailto:fekoerbel@hotmail.com">FEKOERBEL@HOTMAIL.COM</a>
                 </div>
                 <hr />
                 <div className="sidebar-about">

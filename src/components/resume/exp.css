@@ -1,5 +1,6 @@
 .exp-item {
     display: block;
+    margin-bottom: 2rem;
 }
 
 .exp-title {
@@ -18,5 +19,6 @@
 }
 
 .points-list {
-    list-style: square;
+    list-style: inside;
+    font-weight: 300;
 }

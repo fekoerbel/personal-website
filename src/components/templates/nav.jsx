@@ -11,9 +11,6 @@ export default class Nav extends React.Component {
                         <NavLink to="/" activeClassName="active">Home</NavLink>
                     </li>
                     <li className="menu-hover">
-                        <NavLink to="/about">About</NavLink>
-                    </li>
-                    <li className="menu-hover">
                         <NavLink to="/resume">Resume</NavLink>
                     </li>
                     <li className="menu-hover">

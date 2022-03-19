@@ -40,7 +40,7 @@ nav.menu ul li a:hover {
 }
 
 nav.menu ul li a::after {
-    transition: all ease-in-out .1s;
+    transition: all ease-in-out .2s;
     content: "";
     position: absolute;
     left: 0.4rem;
@@ -53,6 +53,10 @@ nav.menu ul li a::after {
 
 nav.menu ul li a:hover::after {
     width: 100%;
+}
+
+.active::after {
+    width: 100% !important;
 }
 
 

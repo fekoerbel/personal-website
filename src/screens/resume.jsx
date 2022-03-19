@@ -4,6 +4,9 @@ import Degrees from "../components/resume/degrees";
 import degrees from "../data/resume/degrees";
 import experiences from "../data/resume/experience";
 import Exp from "../components/resume/exp";
+import { skills } from "../data/resume/skills";
+import Skills from "../components/resume/skills";
+import resumeFilme from "../assets/FELIPE KOERBEL DOS ANJOS.pdf"
 
 export default class Resume extends React.Component {
     render() {
@@ -17,7 +20,7 @@ export default class Resume extends React.Component {
                     <ul>
                         {degrees.map((degree) => {
                             return (
-                                <Degrees degrees={degree}  key={degree.school} />
+                                <Degrees degrees = {degree}  key = {degree.school} />
                             )
                         })}
                     </ul>
@@ -29,12 +32,23 @@ export default class Resume extends React.Component {
                     <ul>
                         {experiences.map((experience) => {
                             return (
-                                <Exp experiences={experience} key={experience.company}/>
+                                <Exp experiences = {experience} key = {experience.company}/>
                             )
                         })}
                     </ul>
-                </div> 
-                           
+                    <div>
+                        <h2 className="resume-title-topic">
+                            Skills
+                        </h2>
+                        <ul>
+                            {skills.map((skill) => {
+                                return (
+                                <Skills skills = {skill} key = {skill.title} />
+                                )
+                            })}
+                        </ul>
+                    </div>
+                </div>  
             </Main>
         )
     }

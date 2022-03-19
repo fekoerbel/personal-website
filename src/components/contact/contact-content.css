@@ -6,3 +6,13 @@ div.contacts li {
 div.contacts li a {
     text-decoration: none;
 }
+
+.link-style  {
+    color: #202a45;
+    font-weight: 300;
+}
+
+.link-style:hover {
+    color: #202a45;
+    font-weight: 400;   
+}

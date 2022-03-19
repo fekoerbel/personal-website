@@ -5,12 +5,12 @@ import "./degrees.css"
 export default class Degrees extends React.Component {
     render() {
         return (
-                <li>
+                <li className="degree-item">
                     <div>
                         {this.props.degrees.degree}
                     </div>
-                    <div>
-                        <a href={this.props.degrees.link}>{this.props.degrees.school}</a>, {this.props.degrees.year}
+                    <div className="degree-school">
+                        <a href={this.props.degrees.link}>{this.props.degrees.school}</a>, <span>{this.props.degrees.year}</span>
                     </div>
                 </li>
         )

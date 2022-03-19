@@ -1,0 +1,17 @@
+.degree-item {
+    margin-bottom: 1rem;
+}
+
+.degree-item a {
+    text-decoration: none;
+    border-bottom: gray dotted 1px;
+}
+
+.degree-item a:hover {
+    color: black;
+    border-bottom-color: black;
+}
+
+.degree-item a, span {
+    color: gray;
+}

@@ -18,7 +18,7 @@ export default class Sidebar extends React.Component {
                 <div className="sidebar-about">
                     <h2>About</h2>
                     <p>
-                    Hi, I'm Felipe. I like building things. I am a Stanford ICME graduate, YC Alumni, and the co-founder and CTO of Arthena. Before Arthena I was at Matroid, Planet, Planetary Resources, Facebook, and SEDS.
+                    Hi, I'am Felipe. I like building things. I'am Graduating in Systems Analysis and Development. I also have degree in law. The knowledge in technology is my passion and I am currently developing my career in the I.T area. I have a broad knowledge of hardware, software and programming, teamworking skills and a logical approach to problem solving. 
                     </p>
                 </div>
                 <hr />
@@ -26,17 +26,17 @@ export default class Sidebar extends React.Component {
                     <h2>Social Networks</h2>
                     <ul className="social-links">
                         <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/fekoerbel/">
                             <FontAwesomeIcon icon={brands('linkedin')} />
                         </a>
                         </li>
                         <li>
-                        <a href="#">
+                        <a href="https://github.com/fekoerbel">
                             <FontAwesomeIcon icon={brands('github')} />
                         </a>
                         </li>
                         <li>
-                        <a href="#">
+                        <a href="mailto:fekoerbel@hotmail.com">
                             <FontAwesomeIcon icon={solid('envelope')} />
                         </a>
                         </li>

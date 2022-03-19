@@ -9,7 +9,7 @@
 
 .degree-item a {
     text-decoration: none;
-    border-bottom: gray dotted 1px;
+    border-bottom: #686565 dotted 1px;
 }
 
 .degree-item a:hover {
@@ -18,7 +18,7 @@
 }
 
 .degree-item a, span {
-    color: gray;
+    color: #686565;
     font-size: 12px;
     letter-spacing: 3px;
 }

@@ -1,5 +1,5 @@
 aside.sidebar {
-    padding: 3rem;
+    padding: 4rem;
 }
 
 .sidebar img {
@@ -19,7 +19,7 @@ aside.sidebar {
 }
 
 .sidebar .sidebar-info a {
-    color: gray;
+    color: #686565;
     font-size: 14px;
     letter-spacing: 3px;
 }
@@ -55,5 +55,5 @@ aside.sidebar {
 .sidebar .sidebar-about p {
     font-size: 14px;
     line-height: 25px;
-    color: gray;
+    color: #686565;
 }

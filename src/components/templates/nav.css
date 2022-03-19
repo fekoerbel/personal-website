@@ -25,7 +25,7 @@ nav.menu ul li.first {
 nav.menu ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    color: gray;
+    color: #686565;
     letter-spacing: 2px;
     font-size: 12px;
     font-weight: 300;

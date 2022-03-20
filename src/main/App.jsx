@@ -8,7 +8,7 @@ import MenuOffcanvas from '../components/templates/offcanvasMenu';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/personal-website">
       <div className='app'>
       <Header />
       <MenuOffcanvas />

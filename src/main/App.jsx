@@ -4,12 +4,14 @@ import Router from './routes';
 import Header from '../components/templates/header';
 import Sidebar from '../components/templates/sidebar';
 import Footer from '../components/templates/footer';
+import MenuOffcanvas from '../components/templates/offcanvasMenu';
 
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className='app'>
       <Header />
+      <MenuOffcanvas />
       <Sidebar />
       <Router />
       <Footer />

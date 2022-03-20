@@ -48,6 +48,14 @@ aside.sidebar {
     color: #ffffff;
 }
 
+.social-sidebar-color {
+    color: #202a45;
+}
+
+.social-sidebar-color:hover {
+    opacity: 0.6;
+}
+
 @media (max-width: 991.98px) {
     aside.sidebar {
         padding: 1rem;

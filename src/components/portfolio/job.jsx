@@ -16,7 +16,7 @@ export default class Job extends React.Component {
                     </h2>
                 </header>
                 <figure>
-                    <a href="#"><img src={this.props.data.image} alt={this.props.data.title} /></a>
+                    <a href={this.props.data.link}><img src={`${process.env.PUBLIC_URL}${this.props.data.image}`} alt={this.props.data.title} /></a>
                     <figcaption>
                         <p>
                             {this.props.data.desc}

@@ -26,17 +26,17 @@ export default class Sidebar extends React.Component {
                     <h2>Social Networks</h2>
                     <ul className="social-links">
                         <li>
-                        <a href="https://www.linkedin.com/in/fekoerbel/">
+                        <a href="https://www.linkedin.com/in/fekoerbel/" className="social-sidebar-color">
                             <FontAwesomeIcon icon={brands('linkedin')} />
                         </a>
                         </li>
                         <li>
-                        <a href="https://github.com/fekoerbel">
+                        <a href="https://github.com/fekoerbel" className="social-sidebar-color">
                             <FontAwesomeIcon icon={brands('github')} />
                         </a>
                         </li>
                         <li>
-                        <a href="mailto:fekoerbel@hotmail.com">
+                        <a href="mailto:fekoerbel@hotmail.com" className="social-sidebar-color">
                             <FontAwesomeIcon icon={solid('envelope')} />
                         </a>
                         </li>

@@ -7,3 +7,14 @@
     color: #686565;
     margin-top: 2rem;
 }
+
+.repository-link {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+
+.repository-link:hover {
+    color: #899cb7;
+}
+

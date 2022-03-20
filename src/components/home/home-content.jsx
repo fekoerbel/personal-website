@@ -10,7 +10,7 @@ export default class HomeContent extends React.Component {
                     </p>
            
                     <p className='page-sources'>
-                        Source available here... not yet.
+                    Visit this project in my repository on github. <a href="https://github.com/fekoerbel/personal-website" className='repository-link'>Here</a>. 
                     </p>     
             </React.Fragment>
         )

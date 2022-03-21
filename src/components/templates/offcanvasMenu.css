@@ -16,7 +16,7 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #95a9c3;
     height: 3px !important;
   }
   
@@ -62,12 +62,20 @@
   .bm-item-list {
     padding: 0.8em;
   }
+
+  .bm-item-list a:not(a.last-offcanvas) {
+    border-bottom: 1px solid #0000003a;
+  }
   
   /* Individual item */
   .bm-item {
     display: inline-block;
     color: white;
-    padding: 0.2rem 0;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-decoration: none;
   }
 
   .bm-item:hover {
@@ -84,11 +92,24 @@
     letter-spacing: 3px;
     padding-bottom: 2rem;
     border-bottom: 1px solid gray;
+    color: white;
   }
 
-  .header-offcanvas h1, .header-offcanvas h2 {
+  .header-offcanvas:hover {
+    opacity: 1 !important;
+  }
+
+  .header-offcanvas h1 {
     font-size: 16px;
     text-align: center;
+  }
+
+  .header-offcanvas h2 {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+
   }
 
   

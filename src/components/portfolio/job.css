@@ -52,3 +52,11 @@
     margin-top: 0.4rem;
     color: #686565;
 }
+
+@media (max-width: 992.98px) {
+    .job figure figcaption p {
+        font-size: 10px;
+        line-height: 11px;
+        padding: 0.5rem;
+    }
+}

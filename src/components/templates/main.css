@@ -44,5 +44,6 @@ ul {
 @media (max-width: 991.98px) {
     article.main {
         margin: 3rem 1rem 2rem 1rem;
+        padding: 1rem;
     }
 }

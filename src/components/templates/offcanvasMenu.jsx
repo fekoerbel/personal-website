@@ -15,7 +15,7 @@ export default class MenuOffcanvas extends React.Component {
                     PERSONAL WEBSITE
                     </h2>
                 </header>
-                <NavLink to="/" activeclassname="active" target={'_parent'}>Home</NavLink>
+                <NavLink to="/" target={'_parent'}>Home</NavLink>
                 <NavLink to="/resume" target={'_parent'}>Resume</NavLink>
                 <NavLink to="/portfolio" target={'_parent'}>Portfolio</NavLink>
                 <NavLink to="/contact" className='last-offcanvas' target={'_parent'}>Contact</NavLink>

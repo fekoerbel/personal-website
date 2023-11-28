@@ -18,7 +18,7 @@ export default class Sidebar extends React.Component {
                 <div className="sidebar-about">
                     <h2>About</h2>
                     <p>
-                    Hi, I'am Felipe. I like building things. I'am Graduating in Systems Analysis and Development. I also have degree in law. The knowledge in technology is my passion and I am currently developing my career in the I.T area. I have a broad knowledge of hardware, software and programming, teamworking skills and a logical approach to problem solving. 
+                    Hi, I'am Felipe. I like building things. I'am graduated in Systems Analysis and Development. I also have degree in law. The knowledge in technology is my passion and I am currently developing my career in the I.T area. I have a broad knowledge of hardware, software and programming, teamworking skills and a logical approach to problem solving. 
                     </p>
                 </div>
                 <hr />

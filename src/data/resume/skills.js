@@ -11,22 +11,22 @@ const skills = [
     },
     {
         title: 'SASS',
-        competency: 4,
+        competency: 5,
         type: 'Languages-basic'
     },
       {
         title: 'Javascript',
-        competency: 3,
+        competency: 5,
         type: 'Languages'
       },
       {
         title: 'Typescript',
-        competency: 2,
+        competency: 4,
         type: 'Languages'
       },
       {
         title: 'PHP',
-        competency: 2,
+        competency: 4,
         type: 'Languages'
       },
       {
@@ -41,7 +41,7 @@ const skills = [
       },
       {
         title: 'Git',
-        competency: 3,
+        competency: 4,
         type: 'Git'
       },
       {
@@ -51,21 +51,26 @@ const skills = [
       },
       {
         title: 'Angular',
-        competency: 2,
-        type: 'Framework'
-      },
-      {
-        title: 'React',
         competency: 3,
         type: 'Framework'
       },
       {
+        title: 'React',
+        competency: 4,
+        type: 'Framework'
+      },
+      {
         title: 'Laravel',
-        competency: 2,
+        competency: 4,
         type: 'Framework'
       },
       {
         title: 'Joomla!',
+        competency: 5,
+        type: 'Content management'
+      },
+        {
+        title: 'Wordpress',
         competency: 4,
         type: 'Content management'
       } 
